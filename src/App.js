@@ -17,7 +17,7 @@ export default function App() {
   }
 
   return (
-    <div>
+    <section>
       <button onClick={handleClick} disabled={isLoading}>
         Get my position
       </button>
@@ -38,6 +38,6 @@ export default function App() {
       )}
 
       <p>You requested position {countClicks} times</p>
-    </div>
+    </section>
   );
 }
